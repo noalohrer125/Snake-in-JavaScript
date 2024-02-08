@@ -10,7 +10,7 @@
 
 <body>
 
-    <canvas id="canvas" width="480" height="480"></canvas>
+    <canvas id="canvas" width="800px" height="800px"></canvas>
 
     <script>
         let canvas = document.getElementById('canvas');
@@ -33,7 +33,6 @@
 
         setInterval(gameLoop, 200);
         document.addEventListener('keydown', keyDown);
-
 
         draw();
 
@@ -73,7 +72,6 @@
             }
 
         }
-
 
         function placeFood() {
             let randomX = Math.floor(Math.random() * cols);
@@ -151,7 +149,5 @@
             }
         }
     </script>
-
 </body>
-
 </html>
